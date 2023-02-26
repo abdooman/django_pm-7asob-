@@ -1,5 +1,6 @@
 from django import forms 
 from . import models
+from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 
 attrs = {'class': 'form-control '}
 
